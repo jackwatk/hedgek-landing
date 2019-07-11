@@ -1,0 +1,34 @@
+#home {
+  background-image: linear-gradient(135deg, #242638 0%, #008080 100%); }
+
+#home .container h1 {
+  font-size: 2rem; }
+
+#home .container span {
+  color: #21cfbb; }
+
+#home .container .laptop {
+  filter: grayscale(80%); }
+
+.phone {
+  max-width: 84%; }
+
+.footer-logo {
+  max-width: 26%; }
+
+.footer img {
+  max-width: 20%; }
+
+.btn-primary {
+  background: #008080;
+  border-color: #21cfbb; }
+
+.btn-primary:hover {
+  background: #21cfbb;
+  border-color: #008080; }
+
+@media screen and (max-width: 992px) {
+  .navbar-left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; } }

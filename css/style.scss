@@ -1,0 +1,56 @@
+$dark-background: #1d1e2e;
+$secondary-dark: #242638;
+$main-color: #008080;
+$other-green: #21cfbb;
+$red: #960018;
+
+$nav-shadow: 4px 4px 4px;
+
+$header-font: 'Poppins', sans-serif;
+$main-font: 'Open Sans', sans-serif;
+
+#home{
+  background-image: linear-gradient(135deg, $secondary-dark 0%, $main-color 100%);
+  .container{
+    h1{
+      font-size: 2rem;
+    }
+    span {
+      color: $other-green;
+    }
+    .laptop{
+      filter: grayscale(80%);
+    }
+  }
+  
+}
+
+.phone {
+  max-width: 84%;
+}
+
+.footer-logo {
+  max-width: 26%;
+}
+
+.footer {
+  img {
+    max-width: 20%;
+  }
+}
+.btn-primary {
+  background: $main-color;
+  border-color: $other-green;
+  &:hover {
+    background: $other-green;
+    border-color: $main-color;
+    
+  }
+}
+@media screen and (max-width: 992px) {
+ .navbar-left{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+ }
+}
