@@ -31,4 +31,9 @@
   .navbar-left {
     width: 100%;
     display: flex;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  .heading {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
