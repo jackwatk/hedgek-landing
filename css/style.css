@@ -27,6 +27,9 @@
   background: #21cfbb;
   border-color: #008080; }
 
+.text-info {
+  color: #0d7779 !important; }
+
 @media screen and (max-width: 992px) {
   .navbar-left {
     width: 100%;
@@ -36,4 +39,12 @@
     margin-top: 90px;
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .mobile {
+    margin-bottom: 10px;
+    transform: scale(1.1); }
+  .navbar-light .navbar-toggler {
+    color: white; }
+  #home .container h1 {
+    font-size: 1.7rem; }
+  /*end of mobile responsive*/ }
